@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révision Javascript</title>
+    <link rel="stylesheet" href="../assets/css/revision.css">
+
+
+</head>
+<body>
+    <div id="charge">
+
+    </div>
+    <div id="charge2">
+
+    </div>
+    <form name="formulaire_ajax" id="formulaire_ajax" method="post" action="formulaire_action.php" onsubmit="return false;">
+        <label for="nom">NOM</label>
+        <input type="text" name="nom" id="nom" placeholder="nom">
+        <label for="prenom">Prénom</label>
+        <input type="text" name="prenom" id="prenom" placeholder="prenom">
+        <label for="mail">Email</label>
+        <input type="email" name="email" id="email" placeholder="email">
+        <p id="email_saisie"></p>
+        <button type="submit" name="submit">Envoyer</button>
+    </form>
+
+    <button type="button" name="ajax_js" id="ajax_js">Charger le contenu</button>
+    <button type="button" name="ajax_jquery" id="ajax_jquery">Charger le contenu en Jquery</button>
+    <script	type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script type="text/javascript" src="../assets/js/revision.js"></script>
+</body>
+</html>
